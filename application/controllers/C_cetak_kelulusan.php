@@ -16,7 +16,7 @@ class C_cetak_kelulusan extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		$this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		$this->API = api_url();
 		// $this->API=decrypt_url($this->session->userdata('api'));
 
 		// $this->API="http://localhost:55620/api";

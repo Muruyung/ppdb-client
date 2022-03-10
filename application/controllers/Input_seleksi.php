@@ -16,9 +16,9 @@ class input_seleksi extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		$this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		$this->API = api_url();
 		ini_set('max_execution_time', '0'); // for infinite time of execution
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller

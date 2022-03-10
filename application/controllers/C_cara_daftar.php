@@ -16,7 +16,7 @@ class C_cara_daftar extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		$this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		$this->API = api_url();
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller
