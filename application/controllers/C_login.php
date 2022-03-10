@@ -16,7 +16,7 @@ class C_login extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		$this->API = api_url();
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller
@@ -58,7 +58,7 @@ class C_login extends CI_Controller {
 			'password'  => $password
 		);
 		// $this->API='https://svc-mc1.ppdb-man-1-cianjur.com/';
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 		$user = json_decode($this->curl->simple_get($this->API.'Get_user', $data, array(CURLOPT_BUFFERSIZE => 10)), true)[0];
 			// print_r($user);
 		if (!is_null($user) && $user != '401'){

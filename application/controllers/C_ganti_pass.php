@@ -16,7 +16,7 @@ class C_ganti_pass extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		$this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		$this->API = api_url();
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller
@@ -51,7 +51,7 @@ class C_ganti_pass extends CI_Controller {
 			'password'  => $lama
 		);
     	// $this->API='https://svc-mc1.ppdb-man-1-cianjur.com/';
-    	// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+    	
     	$user = json_decode($this->curl->simple_get($this->API.'Get_user', $data, array(CURLOPT_BUFFERSIZE => 10)), true);
     	// print_r($user);
     	if (!is_null($user) && $user[0] != '401'){
