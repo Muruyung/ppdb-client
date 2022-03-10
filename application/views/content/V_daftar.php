@@ -117,10 +117,12 @@
             <label for="">Jalur Pendaftaran <b style="color:red;">(WAJIB)*</b></label>
             <div class="row">
               <?php 
-              $date_ex = date_create("2021-05-29");
+              $date_ex_prestasi = date_create("2022-05-07");
+              $date_start_reguler = date_create("2021-05-04");
               $date_now = date_create(date("Y-m-d"));
-              $diff = date_diff($date_ex, $date_now);
-              if ($diff->format("%R%a") < 0){
+              $diff_prestasi = date_diff($date_ex_prestasi, $date_now);
+              $diff_reguler = date_diff($date_now, $date_start_reguler);
+              if ($diff_prestasi->format("%R%a") < 0){
                 ?>
                 <div class="col-sm-3">
                   <div class="form-check form-check-inline">
@@ -130,13 +132,17 @@
                 </div>
                 <?php
               }
-              ?>
+              if ($diff_reguler->format("%R%a") < 0){
+                ?>
               <div class="col-sm-3">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="jalur_daftar" id="jalur_daftar2" value="umum" onclick="sembunyi_prestasi()">
-                  Jalur Umum
+                  Jalur Reguler
                 </div>
               </div>
+              <?php
+              } 
+            ?>
             </div>
           </div>
 

@@ -24,7 +24,7 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
        <div class="sl-slide-inner">
          <div class="bg-img bg-img-1"></div>
          <?php
-            $date_ex = date_create("2021-07-07");
+            $date_ex = date_create("2022-06-04");
             $date_now = date_create(date("Y-m-d"));
             $diff = date_diff($date_ex, $date_now);
             if($login == 'false'){
@@ -235,12 +235,12 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
         <tr>
           <th>Jalur Prestasi</th>
           <th>:</th>
-          <th>&nbsp;26 April - 29 Mei 2021</th>
+          <th>&nbsp;07 Maret - 07 Mei 2022</th>
         </tr>
         <tr>
-          <th>Jalur Umum</th>
+          <th>Jalur Reguler</th>
           <th>:</th>
-          <th>&nbsp;26 April - 07 Juli 2021</th>
+          <th>&nbsp;04 Mei - 04 Juni 2022</th>
         </tr>
       </table>
       <br>
@@ -261,12 +261,12 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
         <tr>
           <th>Jalur Prestasi</th>
           <th>:</th>
-          <th>&nbsp;14 - 19 Juni 2021</th>
+          <th>&nbsp;20 - 22 Juni 2022</th>
         </tr>
         <tr>
-          <th>Jalur Umum</th>
+          <th>Jalur Reguler</th>
           <th>:</th>
-          <th>&nbsp;14 - 26 Juni 2021</th>
+          <th>&nbsp;20 - 24 Juni 2022</th>
         </tr>
         <tr>
           <th>Hari Senin-Jum'at&nbsp;</th>
@@ -281,16 +281,16 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
         <tr>
           <th>Kontak Informasi 1&nbsp;&nbsp;</th>
           <th>:</th>
-          <th>&nbsp;H. Rahmat Mulyana,S.Pd,MM(085720014200)</th>
+          <th>&nbsp;0821-1996-8702</th>
         </tr>
         <tr>
           <th>Kontak Informasi 2&nbsp;&nbsp;</th>
           <th>:</th>
-          <th>&nbsp;Dodi Setiadi,S.Pd(081930495213)</th>
+          <th>&nbsp;0838-7247-6147</th>
         </tr><tr>
           <th>Kontak Informasi 3&nbsp;&nbsp;</th>
           <th>:</th>
-          <th>&nbsp;N.Rika Komariah,S.Ag,MM.Pd (082214956168)</th>
+          <th>&nbsp;0838-1731-7817</th>
         </tr>
         
       </table>
@@ -302,24 +302,24 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
         <hr>
         <h4>Seleksi Jalur Prestasi GelombangI</h4>
         <dl>
-          <dt>Tanggal 24 - 27 Mei 2021</dt>
+          <dt>Tanggal ---</dt>
           <dd></dd>
         </dl>
         <hr>
         <h4>Seleksi Jalur Reguler Gelombang I</h4>
         <dl>
-          <dt>Tanggal 31 Mei - 29 Juni 2021</dt>
+          <dt>Tanggal ---</dt>
           <dd></dd>
           <hr>
         <h4>Seleksi Jalur Prestasi GelombangII</h4>
         <dl>
-          <dt>Tanggal 21 - 22 Juni 2021</dt>
+          <dt>Tanggal ---</dt>
           <dd></dd>
         </dl>
         <hr>
         <h4>Seleksi Jalur Reguler Gelombang II</h4>
         <dl>
-          <dt>Tanggal 24 - 26 Juni 2021</dt>
+          <dt>Tanggal ---</dt>
           <dd></dd>
         </dl>
       </div>
@@ -332,41 +332,41 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
         <h4>Jalur Prestasi</h4>
         <dl>
           <dt>Pengumuman Kelulusan Gelombang I(Online/ Offline):</dt>
-          <dd>29 Mei 2021</dd>
+          <dd>28 Mei 2022</dd>
         </dl>
         <dl>
           <dt>Daftar Ulang/Registrasi ulang Gelombang I:</dt>
-          <dd>31 Mei - 05 Juni 2021</dd>
+          <dd>---</dd>
         </dl>
         <hr>
         <h4>Jalur Reguler</h4>
         <dl>
           <dt>Pengumuman Kelulusan Gelombang I (Online/ Offline):</dt>
-          <dd>07 Juni 2021</dd>
+          <dd>11 Juni 2022</dd>
         </dl>
         <dl>
           <dt>Daftar Ulang/Registrasi ulang Gelombang I :</dt>
-          <dd>08 Mei - 12 Juni 2021</dd>
+          <dd>---</dd>
         </dl>
         <hr>
         <h4>Jalur Prestasi</h4>
         <dl>
           <dt>Pengumuman Kelulusan Gelombang II (Online/ Offline):</dt>
-          <dd>23 Juni 2021</dd>
+          <dd>25 Juni 2022</dd>
         </dl>
         <dl>
           <dt>Daftar Ulang/Registrasi ulang Gelombang II : </dt>
-          <dd>24 - 26 Juni 2021</dd>
+          <dd>---</dd>
         </dl>
         <hr>
         <h4>Jalur Reguler</h4>
         <dl>
           <dt>Pengumuman Kelulusan Gelombang II (Online/ Offline):</dt>
-          <dd>28 Juni 2021</dd>
+          <dd>28 Juni 2022</dd>
         </dl>
         <dl>
           <dt>Daftar Ulang/Registrasi ulang Gelombang II : </dt>
-          <dd>29 Juni - 03 Juli 2021</dd>
+          <dd>---</dd>
         </dl>
       </div>
     </div>
