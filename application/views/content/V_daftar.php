@@ -120,8 +120,8 @@
               $date_ex_prestasi = date_create("2022-05-07");
               $date_start_reguler = date_create("2021-05-04");
               $date_now = date_create(date("Y-m-d"));
-              $diff_prestasi = date_diff($date_ex_prestasi, $date_now);
-              $diff_reguler = date_diff($date_now, $date_start_reguler);
+              $diff_prestasi = date_diff($date_now, $date_ex_prestasi);
+              $diff_reguler = date_diff($date_start_reguler, $date_now);
               if ($diff_prestasi->format("%R%a") < 0){
                 ?>
                 <div class="col-sm-3">

@@ -32,7 +32,7 @@ class C_pemberitahuan extends CI_Controller {
 		$data['seleksi'] 		 = json_decode($this->curl->simple_get($this->API.'get_all_seleksi', array(CURLOPT_BUFFERSIZE => 10)), true);
 
 // 		print_r($data['siswa']);
-		if ($data['siswa'][0] != 401 && $data['seleksi'][0] != 401){
+		if ((is_null($data['siswa']) && is_null($data['seleksi'])) || ($data['siswa'][0] != 401 && $data['seleksi'][0] != 401)){
 			$ortu				  			 = json_decode($this->curl->simple_get($this->API.'get_all_ortu', $admin, array(CURLOPT_BUFFERSIZE => 10)), true);
 			$data['pendaftaran'] = json_decode($this->curl->simple_get($this->API.'get_all_pendaftaran', $admin, array(CURLOPT_BUFFERSIZE => 10)), true);
 			$data['jum_agama']	 = array_count_values(array_column($data['siswa'],'agama'));
