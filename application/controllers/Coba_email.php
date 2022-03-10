@@ -15,9 +15,7 @@ class Coba_email extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
-		$this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		
-
+		$this->API = api_url();
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller
