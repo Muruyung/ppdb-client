@@ -16,7 +16,7 @@ class Cetak_QR extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = 'https://svc-mc1.ppdb-man-1-cianjur.com/';
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 	}
 
 	// proses yang akan di buka saat pertama masuk ke controller

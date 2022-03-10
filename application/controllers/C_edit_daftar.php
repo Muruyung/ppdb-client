@@ -16,7 +16,7 @@ class C_edit_daftar extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		// $this->API = api_url();
-		$this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		$this->API = api_url();
 		date_default_timezone_set('Asia/Jakarta');
 		// $this->API=decrypt_url($this->session->userdata('api'));
 
@@ -380,7 +380,7 @@ class C_edit_daftar extends CI_Controller {
       		'nisn' => $nisn
 		);
 		// $this->API = 'https://svc-mc1.ppdb-man-1-cianjur.com/';
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 		$user = json_decode($this->curl->simple_get($this->API.'get_siswa', $data, array(CURLOPT_BUFFERSIZE => 10)), true)[0];
 		// print_r($user);
 		if (is_null($user) || $user == '401'){

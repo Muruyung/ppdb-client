@@ -16,7 +16,7 @@ class Coba_email extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		$this->API = 'https://'.encrypt_url("svc-mc1").'.man1cianjur.com/';
-		// $this->API = 'http://localhost/ppdb_man_1_cianjur/service/';
+		
 
 	}
 
