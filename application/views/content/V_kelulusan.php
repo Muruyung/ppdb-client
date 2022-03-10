@@ -23,12 +23,11 @@ date_default_timezone_set('Asia/Jakarta');
           $date_ex = '';
           if ($pendaftaran['jalur_daftar'] == 'prestasi'){
           	$jalur = 'P';
-          	$date_ex = date_create("2021-05-29");
+          	$date_ex = date_create("2022-05-28");
           }else{
           	$jalur = 'U';
-          	$date_ex = date_create("2021-06-07");
+          	$date_ex = date_create("2022-06-11");
           }
-          $date_ex = date_create("2021-05-23");
           $no_peserta = 'MAN-'.$pendaftaran['id'].$jalur;
           ?>
           <td><?=$no_peserta?></td>

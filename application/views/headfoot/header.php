@@ -7,7 +7,7 @@
 * Deskripsi   : Header umum website
 *
 ******************************************/
-  $date_ex = date_create("2021-07-07");
+  $date_ex = date_create("2022-06-04");
   $date_now = date_create(date("Y-m-d"));
   $diff = date_diff($date_ex, $date_now);
 ?>
@@ -330,15 +330,15 @@
 							</div>
 						</li>
             <li class="nav-item <?php if ($halaman=='pemberitahuan'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='pemberitahuan'){echo "#";}else{echo base_url('C_pemberitahuan');} ?>">Pemberitahuan</a></li>
-            <!-- <li class="nav-item <?php if ($halaman=='komentar'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Komentar</a></li> -->
-						<li class="nav-item dropdown">
+            <li class="nav-item <?php if ($halaman=='komentar'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Komentar</a></li>
+						<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sosial Media</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
                 <a class="dropdown-item" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Kolom Komentar</a>
 								<a class="dropdown-item" href="https://obrolan.man1cianjur.com/">Obrolan</a>
 								<a class="dropdown-item" href="https://sosial.man1cianjur.com/">Sosmed ManSatu</a>
 							</div>
-						</li>
+						</li> -->
             <li class="nav-item <?php if ($halaman=='login'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='Login'){echo "#";}else{echo base_url('C_login');} ?>">Masuk</a></li>
 					</ul>
 				</div>
