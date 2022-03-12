@@ -273,15 +273,15 @@
 								<a class="dropdown-item" href="<?php if ($halaman=='kelulusan'){echo "#";}else{echo base_url('C_home/kelulusan');} ?>">Hasil Kelulusan</a>
 							</div>
             </li>
-            <!-- <li class="nav-item <?php if ($halaman=='komentar'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Komentar</a></li> -->
-            <li class="nav-item dropdown">
+            <li class="nav-item <?php if ($halaman=='komentar'){echo 'active';} ?>"><a class="nav-link" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Komentar</a></li>
+            <!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sosial Media</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
                 <a class="dropdown-item" href="<?php if ($halaman=='komentar'){echo "#";}else{echo base_url('C_komentar');} ?>">Kolom Komentar</a>
                 <a class="dropdown-item" href="https://obrolan.man1cianjur.com/">Obrolan</a>
 								<a class="dropdown-item" href="https://sosial.man1cianjur.com/">Sosmed ManSatu</a>
 							</div>
-						</li>
+						</li> -->
             <li class="nav-item"><a class="nav-link" onclick="logout()" href="#">Keluar</a></li>
 					</ul>
 				</div>
