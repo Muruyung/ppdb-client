@@ -31,7 +31,7 @@ class C_pemberitahuan extends CI_Controller {
 		$data['siswa'] 			 = json_decode($this->curl->simple_get($this->API.'get_all_siswa', $admin, array(CURLOPT_BUFFERSIZE => 10)), true);
 		$data['seleksi'] 		 = json_decode($this->curl->simple_get($this->API.'get_all_seleksi', array(CURLOPT_BUFFERSIZE => 10)), true);
 
-		echo "<script>console.log('Data Siswa: " . $data['siswa'][0] . "' );</script>";
+		// echo "<script>console.log('Data Siswa: " . $data['siswa'][0] . "' );</script>";
 		if ($data['siswa'][0] != 401 && $data['seleksi'][0] != 401){
 			$ortu				  			 = json_decode($this->curl->simple_get($this->API.'get_all_ortu', $admin, array(CURLOPT_BUFFERSIZE => 10)), true);
 			$data['pendaftaran'] = json_decode($this->curl->simple_get($this->API.'get_all_pendaftaran', $admin, array(CURLOPT_BUFFERSIZE => 10)), true);

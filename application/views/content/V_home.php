@@ -224,7 +224,7 @@ if (!is_null($this->session->userdata('kirim_email')) && $this->session->userdat
            <tr>
           <th>Pendaftaran Online Gelombang I</th>
           <th>:</th>
-          <th>&nbsp;man1cianjur.com</th>
+          <th>&nbsp;ppdb.mansatucianjur.sch.id</th>
         </tr>
         <tr>
         <tr>
