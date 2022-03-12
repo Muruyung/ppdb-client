@@ -18,11 +18,13 @@
                  <h3>Social</h3>
                </div>
                <ul class="footer-links social-md">
-                 <li><a class="fb btn-a" title="Facebook" data-tippy-animation="scale" href="#"><i class="fa fa-facebook"></i></a></li>
-                 <li><a class="gi btn-a" title="Github" data-tippy-animation="scale" href="#"><i class="fa fa-github"></i> </a></li>
+                 <li><a class="fb btn-a" title="Facebook" data-tippy-animation="scale" href="https://web.facebook.com/kesiswaan.cianjur"><i class="fa fa-facebook"></i></a></li>
+                 <li><a class="dr btn-a" title="Instagram" data-tippy-animation="scale" href="https://www.instagram.com/man1cianjur/"><i class="fa fa-instagram"></i> </a></li>
+                 <li><a class="pi btn-a" title="YouTube" data-tippy-animation="scale" href="https://www.youtube.com/channel/UCpge8_DjSkdFaXV2K1XEBhw/videos"><i class="fa fa-youtube"></i> </a></li>
+                 <!-- <li><a class="gi btn-a" title="Github" data-tippy-animation="scale" href="#"><i class="fa fa-github"></i> </a></li>
                  <li><a class="tw btn-a" title="Twitter" data-tippy-animation="scale" href="#"><i class="fa fa-twitter"></i> </a></li>
                  <li><a class="dr btn-a" title="Dribbble" data-tippy-animation="scale" href="#"><i class="fa fa-dribbble"></i> </a></li>
-                 <li><a class="pi btn-a" title="Pinterest" data-tippy-animation="scale" href="#"><i class="fa fa-pinterest"></i> </a></li>
+                 <li><a class="pi btn-a" title="Pinterest" data-tippy-animation="scale" href="#"><i class="fa fa-pinterest"></i> </a></li> -->
                </ul><!-- end links -->
              </div><!-- end clearfix -->
            </div><!-- end col -->
@@ -36,7 +38,7 @@
                <ul class="footer-links">
                  <li><a href="mailto:admin_ppdb@mansatucianjur.sch.id">admin_ppdb@mansatucianjur.sch.id</a></li>
                  <li>Jl.Pangeran Hidayatullah No.39</li>
-                 <li>+085793997484</li>
+                 <li>0857-9399-7484</li>
                </ul><!-- end links -->
              </div><!-- end clearfix -->
            </div><!-- end col -->
