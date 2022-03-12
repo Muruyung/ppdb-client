@@ -36,9 +36,9 @@
                </div>
 
                <ul class="footer-links">
-                 <li><a href="mailto:admin_ppdb@mansatucianjur.sch.id">admin_ppdb@mansatucianjur.sch.id</a></li>
+                 <li><a href="mailto:man.cianjur72@gmail.com">man.cianjur72@gmail.com</a></li>
                  <li>Jl.Pangeran Hidayatullah No.39</li>
-                 <li>0857-9399-7484</li>
+                 <li>0263261900</li>
                </ul><!-- end links -->
              </div><!-- end clearfix -->
            </div><!-- end col -->
@@ -52,7 +52,7 @@
        <div class="container">
          <div class="footer-distributed">
            <div class="footer-left">
-             <p class="footer-company-name">Aplikasi PPDB &copy; <?=Date("Y")?><a href="#">MAN 1 Cianjur</a>
+             <p class="footer-company-name">Aplikasi PPDB &copy; <?=Date("Y")?><a href="#"> MAN 1 Cianjur</a>
               <!-- <br>Design By : <a href="https://www.instagram.com/robinaufal11/">robinaufal11</a> -->
              </p>
            </div>
