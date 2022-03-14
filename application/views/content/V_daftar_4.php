@@ -426,8 +426,8 @@
     var jenis  = "scan_semester1";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -435,8 +435,8 @@
     var jenis  = "scan_semester2";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -444,8 +444,8 @@
     var jenis  = "scan_semester3";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -453,8 +453,8 @@
     var jenis  = "scan_semester4";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -462,8 +462,8 @@
     var jenis  = "scan_semester5";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }

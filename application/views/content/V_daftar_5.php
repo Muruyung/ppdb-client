@@ -437,8 +437,8 @@
     var jenis  = "sertifikat1";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -446,8 +446,8 @@
     var jenis  = "sertifikat2";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
@@ -456,8 +456,8 @@
     var jenis  = "sertifikat3";
     var gbr = document.getElementById(jenis).files[0];
     var value = (gbr.size)/(1024*1024);
-    if (value > 1.25){
-      alert('Ukuran file terlalu besar. Maksimal file berukuran 1MB !!');
+    if (value > 3.15){
+      alert('Ukuran file terlalu besar. Maksimal file berukuran 3MB !!');
       document.getElementById(jenis).value = "";
     }
   }
