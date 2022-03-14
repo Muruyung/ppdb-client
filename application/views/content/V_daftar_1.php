@@ -121,7 +121,7 @@
             <div class="row">
               <?php
               $date_ex_prestasi = date_create("2022-05-07");
-              $date_start_reguler = date_create("2022-05-03");
+              $date_start_reguler = date_create("2022-03-04");
               $date_now = date_create(date("Y-m-d"));
               $diff = date_diff($date_ex_prestasi, $date_now);
               $diff_reguler = date_diff($date_now, $date_start_reguler);
