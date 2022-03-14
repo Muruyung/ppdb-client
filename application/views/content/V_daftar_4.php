@@ -418,7 +418,7 @@
         hasil = data;
       }
     });
-    alert(hasil);
+    // console.log('Upload: ' + hasil);
     return hasil;
   }
 
